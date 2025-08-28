@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ClarityTrack",
+  "version": "0.1",
+  "description": "Tracks active tabs to monitor browser usage.",
+  "permissions": ["tabs", "storage", "notifications"],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "action": {
+    "default_title": "Browser Tracker"
+  }
+}
